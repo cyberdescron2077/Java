@@ -8,6 +8,7 @@ public class Prime {
 	    
 	    if(choice<=1) {
 	    	System.out.println("Not a prime");
+            scanner.close();
 	    	return;
 	    }
 	    if(choice % 2 == 0) {
