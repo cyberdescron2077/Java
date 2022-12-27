@@ -14,6 +14,8 @@ public class Switch {
             break;
             default: System.out.println("Enter a number between 1-3");
             break;
+
         }
+        scanner.close();
     }
 }
