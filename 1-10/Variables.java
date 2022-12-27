@@ -6,6 +6,7 @@ public class Variables {
         float num3 = 25.25f;
         byte num4 = 127;
         long num5 = 255;
+        short num6 = 32767;
         boolean isTrue = true;
         String sayHello = "hello";
 
@@ -14,6 +15,7 @@ public class Variables {
         System.out.println(num3);
         System.out.println(num4);
         System.out.println(num5);
+        System.out.println(num6);
         System.out.println(isTrue);
         System.out.println(sayHello);
         
