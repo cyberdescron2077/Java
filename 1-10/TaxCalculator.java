@@ -9,6 +9,6 @@ public class TaxCalculator {
         tax = scanner.nextDouble();
         total = price + (price * tax/100);
 
-        System.out.println("You total would be : " + total);
+        System.out.println("Your total would be : " + total);
     }
 }
