@@ -43,10 +43,10 @@ public class FlightTicket {
         }else{
             System.out.println("Please enter valid parameters");
         }
-
+        
         System.out.println("You total fee is: " + total + "$");
         
-
+        scanner.close();
 
     }
 }
