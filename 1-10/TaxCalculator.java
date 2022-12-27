@@ -10,5 +10,6 @@ public class TaxCalculator {
         total = price + (price * tax/100);
 
         System.out.println("Your total would be : " + total);
+        scanner.close();
     }
 }
