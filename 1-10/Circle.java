@@ -10,5 +10,6 @@ public class Circle {
 
         System.out.println("Circumference of circle : " + 2*PI*radius);
         System.out.println("Area of circle : " + PI*radius*radius);
+        scanner.close();
     }
 }
