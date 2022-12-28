@@ -1,6 +1,5 @@
 package J31.J01;
 
-
 public class Oop {
     public static void main(String[] args){
         Calculator calculator = new Calculator(10,5,"Blue");
