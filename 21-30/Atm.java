@@ -20,7 +20,11 @@ public class Atm{
             }else if(input == 2){
                 System.out.println("Enter how much you like to withdraw");
                 money = scanner.nextDouble();
-                balance -= money;
+                if(money > balance){
+                    System.out.println("insufficient funds");
+                }else{
+                    balance -= money;
+                }
             }else if(input == 3){
                 System.out.println("Your balance is : " + balance);
             }else if(input == 4){
