@@ -1,4 +1,4 @@
-
+package J31.J06;
 public class StringClass{
     public static void main(String[] args) {
         String name = "Tunc Oncu";
