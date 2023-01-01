@@ -20,7 +20,7 @@ public class PalindromeStrings {
     }else{
         System.out.println("Not Palindrome");
     }
-    
+    scanner.close();
     
     
 
