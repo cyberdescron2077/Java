@@ -1,4 +1,4 @@
-package J41;
+package J41.J01;
 
 public class AccessModifiers {
     private int enginePower,model;
