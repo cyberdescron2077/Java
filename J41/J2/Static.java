@@ -1,4 +1,4 @@
-package J41.J02;
+package J41.J2;
 
 public class Static {
     
