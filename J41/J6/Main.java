@@ -2,6 +2,7 @@ package J41.J6;
 
 public class Main {
     public static void main(String[] args) {
+        //Inheritance
         Employee emp1 = new Employee();
         emp1.fName = "Tunc";
         emp1.lName = "Oncu";
