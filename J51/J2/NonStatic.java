@@ -1,6 +1,6 @@
 package J2;
 
-import javax.swing.event.SwingPropertyChangeSupport;
+
 
 public class NonStatic {
 
@@ -11,7 +11,18 @@ public class NonStatic {
         public void run(){
             System.out.println(a);
             System.out.println(this.a);
+            System.out.println(NonStatic.this.a);
+            System.out.println("*************************");
+            
         }
     }
+        
+        public void run(){
+            System.out.println(a);
+            System.out.println(this.a);
+            Inner i = new Inner();
+            System.out.println(i.a);
+    }
+    
     
 }
