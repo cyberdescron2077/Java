@@ -20,6 +20,9 @@ public class Main {
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
+
+
+        
         
     }
 }
