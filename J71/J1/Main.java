@@ -1,4 +1,4 @@
-package J71;
+package J71.J1;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
